@@ -1,0 +1,28 @@
+#Location2Game
+@back cpp
+
+@char Tachenko.Default
+
+{PlayerName}: Hello Tachenko, I am interested in information about the location of the artifact.
+
+Tachenko: I'll tell you where the artifact is, but you have to help me sort the artifacts in the warehouse.
+
+@minigame
+
+@if minigameResult=="win"
+    Tachenko: Excellent! You have successfully completed the task.
+@else
+    Tachenko: You failed, but that's okay
+@endif
+
+    Tachenko: The artifact is in a cave nearby.
+
+    @completeQuest id:"quest1"
+    @startQuest id:"quest2"
+    @set quest="quest2"
+    @sfx KPK loop:false
+
+    Tachenko: If you find the artifact, bring it to me.
+@endif
+@stop
+

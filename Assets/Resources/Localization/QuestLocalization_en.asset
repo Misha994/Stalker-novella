@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e84a93fa53177c49ad8f1b81381a296, type: 3}
+  m_Name: QuestLocalization_en
+  m_EditorClassIdentifier: 
+  language: 0
+  quests:
+  - id: quest1
+    name: Go to the  checkpoint
+    description: Talk to Tachenko
+  - id: quest2
+    name: Find the artifact
+    description: To go to the cave
+  - id: quest3
+    name: Return to the checkpoint
+    description: Talk to Tachenko
+  - id: quest4
+    name: To go to the village
+    description: Find Loki or Tachenko

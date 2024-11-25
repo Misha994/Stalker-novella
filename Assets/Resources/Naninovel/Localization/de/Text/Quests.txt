@@ -1,0 +1,8 @@
+; English <en> to German <de> localization document for `Quests` managed text document
+
+Quests.quest1.Name: Finde das Artefakt
+Quests.quest1.Description: Hilf dem NPC, das geheimnisvolle Artefakt zu finden.
+Quests.quest2.Name: Beschütze das Dorf
+Quests.quest2.Description: Verteidige das Dorf vor den angreifenden Kreaturen.
+Quests.quest3.Name: Beschütze das Dorf
+Quests.quest3.Description: Verteidige das Dorf vor den angreifenden Kreaturen.

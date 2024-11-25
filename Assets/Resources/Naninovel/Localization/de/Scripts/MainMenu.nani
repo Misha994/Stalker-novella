@@ -1,0 +1,15 @@
+# 2884e93a
+; @choice "New Game" goto:StartGame
+@choice "Neues Spiel" goto:StartGame
+
+# e38f2d94
+; @choice "Load Game" command:loadMenu
+@choice "Spiel Laden" command:loadMenu
+
+# e6a53ff3
+; @choice "Settings" command:settingsMenu
+@choice "Einstellungen" command:settingsMenu
+
+# 78fa7084
+; @choice "Exit" command:exitGame
+@choice "Beenden" command:exitGame

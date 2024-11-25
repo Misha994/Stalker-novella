@@ -1,0 +1,11 @@
+Quests.quest1.Name: Find the Artifact
+Quests.quest1.Description: Help the NPC find the mysterious artifact.
+
+Quests.quest2.Name: Protect the Village
+Quests.quest2.Description: Defend the village from the invading creatures.
+
+Quests.quest3.Name: Protect the Village
+Quests.quest3.Description: Defend the village from the invading creatures.
+
+Quests.quest3.Name: Protect the Village
+Quests.quest3.Description: Defend the village from the invading creatures.

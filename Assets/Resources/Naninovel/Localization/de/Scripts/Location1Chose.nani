@@ -1,0 +1,59 @@
+# 3dc13189
+; Loki: Hello, {PlayerName}! I need this artifact. Can you give it to me?
+Loki: Hallo, {PlayerName}! Ich brauche dieses Artefakt. Kannst du es mir geben?
+
+# f7ec44ed
+; Tachenko: Don't listen to him, {PlayerName}! Give this artifact to me, I'll use it wisely.
+Tachenko: Hör nicht auf ihn, {PlayerName}! Gib mir dieses Artefakt, ich werde es weise nutzen.
+
+# 6476126f
+; @choice "Keep the artifact for yourself" goto:.KeepItem
+@choice "Das Artefakt für dich behalten" goto:.KeepItem
+
+# 86ced765
+; @choice "Give the artifact to Loki" goto:.GiveToNPC1
+@choice "Gib das Artefakt Loki" goto:.GiveToNPC1
+
+# cf2ea36d
+; @choice "Give the artifact to Tachenko" goto:.GiveToNPC2
+@choice "Gib das Artefakt Tachenko" goto:.GiveToNPC2
+
+# 2d078dba
+; Player: I've decided to keep the artifact for myself.
+Spieler: Ich habe beschlossen, das Artefakt für mich zu behalten.
+
+# 715fd45b
+; Loki: Selfish, but fine...
+Loki: Egoistisch, aber in Ordnung...
+
+# a7a61e43
+; Tachenko: What a shame. I expected better from you, {PlayerName}.
+Tachenko: Was für eine Schande. Ich hatte mehr von dir erwartet, {PlayerName}.
+
+# f1366e75
+; Player: Alright, Loki, this is for you.
+Spieler: Na gut, Loki, das ist für dich.
+
+# f6002e16
+; Loki: Thank you! You won't regret this.
+Loki: Danke! Du wirst es nicht bereuen.
+
+# c68b4948
+; Tachenko: I knew you'd pick him... But it was the wrong choice.
+Tachenko: Ich wusste, dass du ihn wählst... Aber es war die falsche Entscheidung.
+
+# 30512f06
+; Player: Here you go, Tachenko. I think you need this more.
+Spieler: Hier, Tachenko. Ich denke, du brauchst das mehr.
+
+# f189f2fc
+; Tachenko: Thank you, {PlayerName}! You're a true friend.
+Tachenko: Danke, {PlayerName}! Du bist ein wahrer Freund.
+
+# 9bda3c3c
+; Loki: Sigh, you shouldn't have done that...
+Loki: Seufz, das hättest du nicht tun sollen...
+
+# 1e0bfefc
+; {PlayerName}: I need to move deeper into the zone.
+{PlayerName}: Ich muss tiefer in die Zone vordringen.

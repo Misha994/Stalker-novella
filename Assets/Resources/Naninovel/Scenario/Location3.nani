@@ -1,0 +1,18 @@
+#Location3
+@Back Artifact
+@if quest=="quest2"
+    @set location3Accessible=false
+    @set itemCollected=true
+    @char Art.Default pos:50,50
+    {PlayerName}: the detector shows the presence of an artifact
+
+    @completeQuest id:"quest2"
+    @startQuest id:"quest3"
+    @set quest="quest3"
+    @sfx KPK loop:false
+    @hide Art
+    @stop
+@else
+
+@endif
+@stop

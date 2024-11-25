@@ -1,0 +1,12 @@
+# Start
+@back cpp
+
+
+@input PlayerName summary:"Enter your name:"
+@stop
+@char Tachenko.Default
+
+Tachenko: Hello stalker {PlayerName}, welcome to the zone, go to the village, maybe you will have tasks there.
+@hide Tachenko
+@goto Location1GetQuest
+@stop

@@ -1,0 +1,9 @@
+; English <en> to German <de> localization document for `Start` naninovel script
+
+# a5990299
+; @input PlayerName summary:"Enter your name:"
+ @input PlayerName summary:"Geben Sie Ihren Namen ein:"
+
+# 6be02a60
+; Tachenko: Hello stalker {PlayerName}, welcome to the zone, go to the village, maybe you will have tasks there.
+Tachenko: Hallo Stalker {PlayerName}, willkommen in der Zone. Gehen Sie ins Dorf, vielleicht gibt es dort Aufgaben für Sie.

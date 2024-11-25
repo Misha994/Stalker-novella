@@ -1,0 +1,14 @@
+# MainMenu
+
+@hidePrinter
+@hideChoiceHandler
+
+@back MainMenuBackground
+
+@choice "New Game" goto:StartGame
+@choice "Load Game" command:loadMenu
+@choice "Settings" command:settingsMenu
+@choice "Exit" command:exitGame
+
+@resetState
+@goto Start

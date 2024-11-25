@@ -1,0 +1,15 @@
+#Location1GetQuest
+
+@back Village
+@char Loki.Default
+
+@startQuest id:"quest1"
+@set quest="quest1"
+@sfx KPK loop:false
+
+Loki: Hello stalker {PlayerName}, I need your help finding the artifact, I don't know where it is, so go to Tachenko, he might know
+@set itemOwner="none"
+@set location3Accessible=true
+@set itemCollected=false
+
+@stop

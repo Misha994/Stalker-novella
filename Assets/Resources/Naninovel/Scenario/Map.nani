@@ -1,0 +1,18 @@
+# Map
+
+@hide Loki
+@hide Tachenko
+
+@back Map
+
+@hidePrinter
+
+@choice handler:ButtonArea button:Buttons/Location1 pos:-500,410 goto:Location1
+@choice handler:ButtonArea button:Buttons/Location2 pos:-355,-380 goto:Location2
+
+@if location3Accessible
+    @choice handler:ButtonArea button:Buttons/Location3 pos:480,0 goto:Location3
+@else
+    @choice handler:ButtonArea button:Buttons/Location3Disabled pos:200,-100
+@endif
+@stop

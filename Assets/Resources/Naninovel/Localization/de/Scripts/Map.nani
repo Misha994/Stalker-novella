@@ -1,0 +1,13 @@
+; English <en> to German <de> localization document for `Map` naninovel script
+
+# ec1bca4b
+; @choice handler:ButtonArea button:Buttons/Location1 pos:-500,410 goto:Location1
+
+# acd30e3c
+; @choice handler:ButtonArea button:Buttons/Location2 pos:-355,-380 goto:Location2
+
+# bfb91301
+;     @choice handler:ButtonArea button:Buttons/Location3 pos:480,0 goto:Location3
+
+# 82e7744f
+;     @choice handler:ButtonArea button:Buttons/Location3Disabled pos:200,-100

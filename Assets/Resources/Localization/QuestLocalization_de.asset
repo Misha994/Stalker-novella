@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7e84a93fa53177c49ad8f1b81381a296, type: 3}
+  m_Name: QuestLocalization_de
+  m_EditorClassIdentifier: 
+  language: 1
+  quests:
+  - id: quest1
+    name: Gehe zum Kontrollpunkt
+    description: Sprich mit Tachenko
+  - id: quest2
+    name: Finde das Artefakt
+    description: "Gehe zur H\xF6hle"
+  - id: quest3
+    name: "Kehre zum Kontrollpunkt zur\xFCck"
+    description: Sprich mit Tachenko
+  - id: quest4
+    name: Gehe ins Dorf
+    description: Finde Loki oder Tachenko

@@ -1,0 +1,20 @@
+#Location1
+
+@back Village
+
+@if itemOwner=="none"
+	@if quest=="quest4"
+		@goto Location1Chose
+	@endif
+@elseif itemOwner!="none"
+	@if itemOwner=="Loki"
+	    @char Loki.Hapy
+		Loki: Hello friend
+		@elseif itemOwner!="Loki"
+		@char Loki.Evil
+		Loki: I don't want to see you.
+	@endif
+@else
+	@char Loki.Default
+@endif
+@stop

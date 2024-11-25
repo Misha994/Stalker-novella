@@ -1,0 +1,23 @@
+# e2ef3598
+; {PlayerName}: Hello Tachenko, I am interested in information about the location of the artifact.
+{PlayerName}: Hallo Tachenko, ich interessiere mich für Informationen über den Standort des Artefakts.
+
+# f02c592e
+; Tachenko: I'll tell you where the artifact is, but you have to help me sort the artifacts in the warehouse.
+Tachenko: Ich sage dir, wo sich das Artefakt befindet, aber du musst mir helfen, die Artefakte im Lager zu sortieren.
+
+# 59958bac
+;     Tachenko: Excellent! You have successfully completed the task.
+    Tachenko: Ausgezeichnet! Du hast die Aufgabe erfolgreich abgeschlossen.
+
+# 3a10d5e1
+;     Tachenko: You failed, but that's okay
+    Tachenko: Du hast es nicht geschafft, aber das ist in Ordnung.
+
+# 4a050f49
+;     Tachenko: The artifact is in a cave nearby.
+    Tachenko: Das Artefakt befindet sich in einer nahegelegenen Höhle.
+
+# 9537feba
+;     Tachenko: If you find the artifact, bring it to me.
+    Tachenko: Wenn du das Artefakt findest, bring es zu mir.

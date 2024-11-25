@@ -1,0 +1,47 @@
+#Location1Chose
+@back Village
+
+@char Tachenko.Default
+@char Loki.Default
+
+Loki: Hello, {PlayerName}! I need this artifact. Can you give it to me?
+Tachenko: Don't listen to him, {PlayerName}! Give this artifact to me, I'll use it wisely.
+
+; Choose whom to give the artifact
+@choice "Keep the artifact for yourself" goto:.KeepItem
+@choice "Give the artifact to Loki" goto:.GiveToNPC1
+@choice "Give the artifact to Tachenko" goto:.GiveToNPC2
+@stop
+
+# KeepItem
+Player: I've decided to keep the artifact for myself.
+Loki: Selfish, but fine...
+Tachenko: What a shame. I expected better from you, {PlayerName}.
+    @completeQuest id:"quest4"
+    @set itemOwner="Player"
+    @set quest="none"
+    @stop
+
+# GiveToNPC1
+Player: Alright, Loki, this is for you.
+Loki: Thank you! You won't regret this.
+Tachenko: I knew you'd pick him... But it was the wrong choice.
+    @completeQuest id:"quest4"
+    @set itemOwner="Loki"
+    @set quest="none"
+    @stop
+
+# GiveToNPC2
+Player: Here you go, Tachenko. I think you need this more.
+Tachenko: Thank you, {PlayerName}! You're a true friend.
+Loki: Sigh, you shouldn't have done that...
+    @completeQuest id:"quest4"
+    @set itemOwner="Tachenko"
+    @set quest="none"
+    @stop
+
+@hide Loki
+@hide Tachenko
+
+{PlayerName}: I need to move deeper into the zone.
+@stop

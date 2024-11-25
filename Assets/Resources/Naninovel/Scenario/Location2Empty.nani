@@ -1,0 +1,8 @@
+# Location2Empty
+@back cpp
+PlayerName: Tachenko is not here, he is probably in the village
+    @completeQuest id:"quest3"
+    @startQuest id:"quest4"
+    @set quest="quest4"
+    @sfx KPK loop:false
+    @stop

@@ -1,0 +1,24 @@
+#Location2
+
+@back cpp
+
+@if itemOwner=="none"
+	@if quest=="quest1"
+		@goto Location2Game
+	@elseif quest=="quest3"
+		@goto Location2Empty
+	@else
+		
+	@endif
+@elseif itemOwner!="none"
+	@if itemOwner=="Tachenko"
+	@char Tachenko.Hapy
+	Tachenko: I am glad to see you.
+	@elseif itemOwner!="Tachenko"
+	@char Tachenko.Evil
+	Tachenko: Go away!	
+	@endif
+@else
+
+@endif
+@stop
